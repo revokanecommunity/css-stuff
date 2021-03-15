@@ -1,0 +1,71 @@
+body {
+  align-items: center;
+  background: #1a4341;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: -30px 0px 0px 0px;
+  overflow: hidden;
+}
+.circle {
+  border-radius: 50%;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.dot {
+  background: #9a8235;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.dot1 {
+  height: 30px;
+  left: 15px;
+  top: 25px;
+  width: 30px;
+}
+
+.dot2 {
+  bottom: 15px;
+  height: 20px;
+  left: 40px;
+  width: 20px;
+}
+
+.dot3 {
+  height: 10px;
+  right: 20px;
+  top: 20px;
+  width: 10px;
+}
+
+.s1 {
+  left: 46px;
+  top: -35px;
+}
+
+.s2 {
+  left: 50px;
+  top: -20px;
+  transform: rotate(-60deg);
+}
+
+.s3 {
+  right: 40px;
+  top: -30px;
+  transform: rotate(60deg);
+}
+
+.stick {
+  border-radius: 10px;
+  height: 160px;
+  position: absolute;
+  width: 8px;
+  z-index: -1;
+}
+
+.yellow {
+  background: #f2ad3b;
+}
